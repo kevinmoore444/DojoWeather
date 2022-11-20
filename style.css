@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+    }
+
+
+/* NavBar */
+
+.navbar{
+    height: 100px;
+    width: 1000px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1{
+    color: white;
+    margin-left: 125px;
+    margin-right: 150px;
+}
+
+.navbar a{
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:link{
+    color: white;
+}
+
+.navbar a:visited{
+    color: white;
+}
+
+
+/* HeaderBar */
+
+.headerbar{
+    height: 80px;
+    width: 750px;
+    margin-left: 125px;
+    margin-right: 125px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid black 3px;
+}
+
+.headerbar h2{
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 390px;
+}
+
+.headerbar p{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* Forecast */
+
+
+.forecast{
+    height: 350px;
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 125px;
+    display: flex;
+    align-items: center;
+}
+
+/* Today */
+
+.today{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    width: 180px;
+    background-color: lightgray;
+}
+
+.today h1{
+    margin-left: 35px;
+}
+
+.today img{
+    margin-left: 18px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.today h5{
+    font-size: 18px;
+    margin-left: 45px;
+}
+
+.today span{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+
+/* Tomorrow */
+
+.tomorrow{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    width: 180px;
+    background-color: lightgray;
+    margin-left: 20px;
+}
+
+.tomorrow h1{
+    margin-left: 13px;
+}
+
+.tomorrow img{
+    margin-left: 18px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.tomorrow h5{
+    font-size: 18px;
+    margin-left: 45px;
+}
+
+
+.tomorrow span{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+
+/* Friday */
+
+.friday{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    width: 180px;
+    background-color: lightgray;
+    margin-left: 20px;
+}
+
+.friday h1{
+    margin-left: 35px;
+}
+
+.friday img{
+    margin-left: 18px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.friday h5{
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.friday span{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+
+/* Saturday */
+
+
+.saturday{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    width: 190px;
+    background-color: lightgray;
+    margin-left: 20px;
+}
+
+
+.saturday h1{
+    margin-left: 20px;
+}
+
+.saturday img{
+    margin-left: 18px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.saturday h5{
+    font-size: 18px;
+    margin-left: 45px;
+}
+
+.saturday span{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+
+/* CookieTime */
+
+
+.cookies{
+    height: 125px;
+    width: 750px;
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.cookies img{
+    height: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cookietime{
+    width: 500px;
+}
+.cookietime h1{
+    font-size: 22px;
+}
+
+.cookietime p{
+    font-size: 18px;
+}
+
+.cookies button{
+    height: 30px;
+    width: 90px;
+    font-size: 18px;
+    background-color:cornflowerblue;
+    box-shadow: black 4px 4px 4px;
+
+}
